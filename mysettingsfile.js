@@ -123,7 +123,7 @@ module.exports = {
         type: "credentials",
         users: [{
             username: "admin",
-            password: $MYNODEREDPASSWORD,
+            password: MYNODEREDPASSWORD,
             permissions: "*"
         }]
     },
