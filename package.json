@@ -1,0 +1,13 @@
+{
+    "name"         : "nr",
+    "dependencies": {
+        "node-red": "*",
+        "node-red-dashboard": "*",
+        "node-red-contrib-web-worldmap": "*",
+        "node-red-contrib-mqtt-broker": "*"
+    },
+    "scripts": {
+        "start": "node-red -s mysettingsfile.js"
+    }
+    
+}
